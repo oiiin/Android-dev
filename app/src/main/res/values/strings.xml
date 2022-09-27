@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AHMED\'s Andriod Labs</string>
+    <string name="app_name">AHMED\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
-    <string name="button_message">I\'m a button</string>
+    <string name="button_message">I am a button</string>
 </resources>
