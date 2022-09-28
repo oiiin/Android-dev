@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imgView = findViewById(R.id.flagview);
+        imgView = findViewById(R.id.flagView);
         sw = findViewById(R.id.spin_switch);
 
         sw.setOnCheckedChangeListener( (btn, isChecked) -> {
