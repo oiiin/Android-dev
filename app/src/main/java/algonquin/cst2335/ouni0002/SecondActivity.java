@@ -86,15 +86,7 @@ public class SecondActivity extends AppCompatActivity {
                             }
                         }
 
-                        File file = new File( getFilesDir(), "Picturen.png");
 
-                        if(file.exists())
-
-                        {
-                            Bitmap theImage = BitmapFactory.decodeFile("Picturen.png");
-                            profileImage.setImageBitmap(theImage);
-
-                        }
                     }
                 });
 
@@ -105,6 +97,16 @@ public class SecondActivity extends AppCompatActivity {
 
 
         });
+
+        File file = new File( getFilesDir(), "Picture.png");
+
+        if(file.exists())
+
+        {
+            Bitmap theImage = BitmapFactory.decodeFile(file.getPath());
+            profileImage.setImageBitmap(theImage);
+
+        }
 
 
     }
